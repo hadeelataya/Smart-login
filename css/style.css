@@ -1,0 +1,110 @@
+#login{
+    height: 100vh;
+    background-image: url(../images/h.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#signup{
+    height: 100vh;
+    background-image: url(../images/h.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#home{
+    height: 100vh;
+    background-color: #163A53;
+    background-size: 100% 100%;
+}
+.title h1 {
+    position: absolute;
+    width: 130px;
+    top: 150px;
+    left: 50px;
+    font-size: 80px;
+    color: #BC9394;
+    font-family: 'Lora', serif;
+}
+.title span {
+
+    color: #fff;
+    margin-left: 50px;
+}
+
+.title h1 .c {
+    color: #1B425E;
+    margin-left: 100px;
+}
+.box {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.box h3 {
+    color: #DFD3B9;
+}
+.box p{
+    color: #1B425E ;
+    font-size: 17px;
+}
+.box p a{
+    color: #1B425E;
+    text-decoration: none;
+}
+.box p a:hover{
+    text-decoration: underline;
+}
+.log {
+    background-image: linear-gradient(115deg, #5390AD, #C8A19A);
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 30%;
+    z-index: 2;
+  }
+  .log a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .log .logspan {
+    align-items: center;
+    background: #010818;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  
+  .log:hover .logspan {
+    background: transparent;
+  }
+
+/* .back{
+    background-image: url(../images/u.jpg);
+} */
+  .group {
+    box-shadow: -2px 1px 74px -5px rgb(218, 205, 179);
+}
+div.group:hover{
+    box-shadow: -2px 1px 74px -5px rgb(182, 130, 131);
+}
+.group h1{
+    color: #BC9394;
+    font-family: 'Cinzel', serif;
+}
+#home .navbar-brand{
+    font-family: 'Lora', serif;
+}
+#home ul.nav a{
+    color: #DFD3B9 !important;
+}
+#home ul.navbar-nav a:hover{
+    color: #000;
+}
